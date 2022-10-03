@@ -90,7 +90,7 @@ install-dotfiles() {
     if [ ! -d "$DOTFILES" ];
         then
             dialog --infobox "[$(whoami)] Downloading dotfiles..." 10 60
-            git clone --recurse-submodules "https://github.com/bimmerr2019/dotfiles_home" "$DOTFILES" 
+            git clone --recurse-submodules "https://github.com/bimmerr2019/dotfiles_book" "$DOTFILES" 
             >/dev/null
     fi
 
