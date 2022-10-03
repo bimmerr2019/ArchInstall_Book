@@ -7,8 +7,7 @@ set -euo pipefail
 
 # YOU NEED TO MODIFY YOUR INSTALL URL
 url-installer() {
-    echo 
-    "https://raw.githubusercontent.com/bimmerr2019/ArchInstall_Book/master"
+    echo "https://raw.githubusercontent.com/bimmerr2019/ArchInstall_Book/master"
 }
 
 run() {
