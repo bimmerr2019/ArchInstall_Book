@@ -69,7 +69,7 @@ dialog-choose-apps() {
         "compression" "Compression Tools" on
         "tools" "Very nice tools to have (highly recommended)" on
         "audio" "Audio tools" on
-        "network" "Network Configuration" off
+        "network" "Network Configuration" on
         "git" "Git & git tools" on
         "i3" "i3 Tile manager & Desktop" on
         "tmux" "Tmux" on
@@ -77,20 +77,20 @@ dialog-choose-apps() {
         "keyring" "Keyring applications" on
         "urxvt" "Urxvt unicode" on
         "zsh" "Unix Z-Shell (zsh)" on
-        "ripgrep" "Ripgrep" on \
+        "ripgrep" "Ripgrep" on
         "qutebrowser" "Qutebrowser" on
         "notify" "Notifications with dunst & libnotify" on
         "gtk" "GTK 3 themes and icons" on
         "programming" "Programming environments (PHP, Ruby, Go, Docker, Clojure)" on
         "keepass" "Keepass" on
         "sql" "Mysql (mariadb) & mysql tools" on
-        "office" "Office tools (Libreoffice...)" off
-        "multimedia" "Multimedia" off
+        "office" "Office tools (Libreoffice...)" on
+        "multimedia" "Multimedia" on
         "videography" "Video creation" off
         "graphism" "Design" off
         "photography" "Photography tools" off
-        "firefox" "Firefox (browser)" off
-        "brave" "brave (browser)" off
+        "firefox" "Firefox (browser)" on
+        "brave" "brave (browser)" on
         "newsboat" "RSS Feed Reader" on
         "joplin" "Note taking system" off
         "thunar" "Graphical file manager" off
@@ -99,11 +99,11 @@ dialog-choose-apps() {
         "syncthing" "Sync files via P2P" off
         "rover" "Simple file browser for the terminal" off
         "language" "Language tools" off
-        "nextcloud" "Nextcloud client" off
+        "nextcloud" "Nextcloud client" on
         "hugo" "Hugo static site generator" off
         "freemind" "Freemind - mind mapping software" off
         "doublecmd" "Double Commander - File explorer a la FreeCommander" off
-        "vmware" "Vmware tools" off
+        "vmware" "Vmware tools" on
         "gaming" "Almost everything for gaming on Linux" off)
 
     dialog --checklist "You can now choose the groups of applications you want to install, according to your own CSV file.\n\n Press SPACE to select and ENTER to validate your choices." 0 0 0 "${apps[@]}" 2> "$file"
