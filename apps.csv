@@ -57,6 +57,10 @@ tools,taskell,CLI kanban
 tools,tree,List FS in tree-like format
 tools,neofetch,Get system specs
 tools,numlockx,Keylock manager
+tools,ttf-font-awesome, needed font 1
+tools,nerd-fonts-inconsolata, needed font 2
+tools,zsh-syntax-highlighting, needed prog
+tools,qtodotxt2-git,todo list (nextcloud2)
 graphism,gcolor2,Simple color selector
 graphism,pinta,Easy to use image editor
 graphism,libwebp,Image converter from jpg to webp
